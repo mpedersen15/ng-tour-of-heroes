@@ -1,0 +1,2 @@
+<app-heroes [heroes]="heroStoreService.heroes | async" (heroAdded)="onHeroAdded($event)"
+    (heroDeleted)="onHeroDeleted($event)"></app-heroes>
